@@ -13,7 +13,7 @@
     "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false",
     "build":"tsc"
   },
-  "author": "shahriar sajeeb",
+  "author": "Martin Lubowa",
   "license": "ISC",
   "dependencies": {
     "@types/bcryptjs": "^2.4.2",
