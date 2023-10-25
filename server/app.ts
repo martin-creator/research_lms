@@ -21,10 +21,11 @@ app.use(cookieParser());
 // cors => cross origin resource sharing
 app.use(
   cors({
-    origin: ["https://e-learning-client-nine.vercel.app"],
+    origin: ["http://localhost:3000"],
     credentials: true,
   })
 );
+
 
 // api requests limit
 const limiter = rateLimit({

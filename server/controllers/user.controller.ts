@@ -20,7 +20,10 @@ import {
 } from "../services/user.service";
 import cloudinary from "cloudinary";
 
-// register user
+// @desc    Register user
+// @route   POST /api/v1/register
+// @access  Public
+
 interface IRegistrationBody {
   name: string;
   email: string;
@@ -98,7 +101,10 @@ export const createActivationToken = (user: any): IActivationToken => {
   return { token, activationCode };
 };
 
-// activate user
+// @desc    Activate user account
+// @route   POST /api/v1/activation
+// @access  Public
+
 interface IActivationRequest {
   activation_token: string;
   activation_code: string;
@@ -141,7 +147,10 @@ export const activateUser = CatchAsyncError(
   }
 );
 
-// Login user
+// @desc    Login user
+// @route   POST /api/v1/login
+// @access  Public
+
 interface ILoginRequest {
   email: string;
   password: string;
@@ -192,7 +201,10 @@ export const logoutUser = CatchAsyncError(
   }
 );
 
-// update access token
+// @desc Update Access Token
+// @route POST /api/v1/refresh-token
+// @access Public
+
 export const updateAccessToken = CatchAsyncError(
   async (req: Request, res: Response, next: NextFunction) => {
     try {
@@ -246,7 +258,10 @@ export const updateAccessToken = CatchAsyncError(
   }
 );
 
-// get user info
+// @desc    Forgot password
+// @route   POST /api/v1/forgot-password
+// @access  Public
+
 export const getUserInfo = CatchAsyncError(
   async (req: Request, res: Response, next: NextFunction) => {
     try {
@@ -264,7 +279,10 @@ interface ISocialAuthBody {
   avatar: string;
 }
 
-// social auth
+// @desc    Social login
+// @route   POST /api/v1/social-login
+// @access  Public
+
 export const socialAuth = CatchAsyncError(
   async (req: Request, res: Response, next: NextFunction) => {
     try {
