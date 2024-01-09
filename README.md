@@ -25,6 +25,7 @@ Live Demo: [https://africanscienceresearchacademy.netlify.app/](https://africans
 - [License](#license)
 
 ## Screenshots
+
 ![image](./images/e1.png)
 ![image](./images/e_2.png)
 ![image](./images/e_3.png)
