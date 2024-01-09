@@ -20,9 +20,12 @@ const CourseInformation: FC<Props> = ({
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    if (data) {
-      setCategories(data.layout.categories);
+    if (data && data.layout) {
+      const categoriesArray = data.layout.categories || [];
+      //setCategories(data.layout.categories);
+      setCategories(categoriesArray);
     }
+    
   }, [data]);
 
   const handleSubmit = (e: any) => {

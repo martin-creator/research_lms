@@ -18,7 +18,7 @@ const Page: FC<Props> = (props) => {
   return (
     <div>
       <Heading
-        title="ELearning"
+        title="ASRA"
         description="ELearning is a platform for students to learn and get help from teachers"
         keywords="Prograaming,MERN,Redux,Machine Learning"
       />
