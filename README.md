@@ -2,7 +2,7 @@
 
 Welcome to SciNet Learning, a powerful Learning Management System designed to enhance the educational experience for both users and administrators. Developed by Martin Lubowa (martinlubowa@outlook.com), SciNet Learning is built using Node.js, TypeScript, Redis, MongoDB, and Next.js.
 
-Live Demo: [https://africanscienceresearchacademy.netlify.app/](https://africanscienceresearchacademy.netlify.app/)
+Live Demo: [https://africanscienceresearchacademy.netlify.app/](https://africanscienceresearchacademy.netlify.app/) (The site will take long to launch because it is hosted on a free server. For login credentials, please contact me at martinlubowa@outlook.com)
 
 ## Table of Contents
 
