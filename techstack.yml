@@ -2,7 +2,7 @@ repo_name: martin-creator/research_lms
 report_id: fa8d9a2673410e2f1916f6b3b2e6a2f2
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-04T08:02:45+00:00'
+timestamp: '2024-02-29T19:52:42+00:00'
 requested_by: martin-creator
 provider: github
 branch: master
@@ -81,7 +81,7 @@ tools:
   last_updated_by: shahriarsajeeb
   last_updated_on: 2023-09-07 18:37:28.000000000 Z
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   version: 13.4.13
   open_source: true
